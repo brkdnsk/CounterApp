@@ -1,0 +1,1 @@
+/Users/burakdansik/Desktop/Project/CounterApp/android/app/build/intermediates/cxx/Debug/5472143q/obj/x86_64

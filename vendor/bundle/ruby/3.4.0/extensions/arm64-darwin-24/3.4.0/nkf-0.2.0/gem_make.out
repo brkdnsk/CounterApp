@@ -1,0 +1,18 @@
+current directory: /Users/burakdansik/Desktop/Project/CounterApp/CounterApp/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/burakdansik/Desktop/Project/CounterApp/CounterApp/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250606-11694-fm891w sitelibdir\=./.gem.20250606-11694-fm891w clean
+
+current directory: /Users/burakdansik/Desktop/Project/CounterApp/CounterApp/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250606-11694-fm891w sitelibdir\=./.gem.20250606-11694-fm891w
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/burakdansik/Desktop/Project/CounterApp/CounterApp/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250606-11694-fm891w sitelibdir\=./.gem.20250606-11694-fm891w install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250606-11694-fm891w
+
+current directory: /Users/burakdansik/Desktop/Project/CounterApp/CounterApp/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250606-11694-fm891w sitelibdir\=./.gem.20250606-11694-fm891w clean

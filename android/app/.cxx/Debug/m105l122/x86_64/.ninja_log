@@ -1,0 +1,6 @@
+# ninja log v5
+0	9	0	/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/.cxx/Debug/m105l122/x86_64/CMakeFiles/cmake.verify_globs	4a5f612a41bdbf30
+0	1287	1749258188403257464	CMakeFiles/appmodules.dir/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	cb4a4244cb6fbe5e
+0	1396	1749258188511651133	CMakeFiles/appmodules.dir/OnLoad.cpp.o	aa41c8e5b4036247
+1396	1458	1749258188577149003	/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/build/intermediates/cxx/Debug/m105l122/obj/x86_64/libappmodules.so	f6f308fe2a258ba6
+0	22	0	/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/.cxx/Debug/m105l122/x86_64/CMakeFiles/cmake.verify_globs	4a5f612a41bdbf30

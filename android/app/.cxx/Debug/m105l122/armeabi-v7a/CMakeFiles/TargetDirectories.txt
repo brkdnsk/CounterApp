@@ -1,0 +1,3 @@
+/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/.cxx/Debug/m105l122/armeabi-v7a/CMakeFiles/appmodules.dir
+/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/.cxx/Debug/m105l122/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/burakdansik/Desktop/Project/CounterApp/CounterApp/android/app/.cxx/Debug/m105l122/armeabi-v7a/CMakeFiles/rebuild_cache.dir
