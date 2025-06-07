@@ -1,15 +1,20 @@
 import { Button, StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import React,{useState} from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
 const Stack= createNativeStackNavigator();
 export default function Counter({navigation}) {
+  const [counter, setCounter] = useState(0)
   return (
     <View>
-      <Button title="Arttır" onPress={()=> {}}/>
-      <Button title="Azalt" onPress={()=> {}}/>
-        <Text>Sayı : 0</Text>
+      <Button title="Arttır" onPress={()=> {
+        setCounter(counter+1);
+      }}/>
+      <Button title="Azalt" onPress={()=> {
+         setCounter(counter-1);
+      }}/>
+        <Text>Sayı : {counter}</Text>
     </View>
   );
 }
