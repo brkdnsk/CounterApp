@@ -11,6 +11,10 @@ export default function CounterScreen({ navigation }) {
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Counter')}>
         <Text style={styles.buttonText}>Sayaca git</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('BoxPage')}>
+        <Text style={styles.buttonText}>Kutu Uygulaması</Text>
+      </TouchableOpacity>
     </View>
   );
 }
