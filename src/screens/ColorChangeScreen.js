@@ -1,11 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View ,Button , FlatList } from 'react-native'
 import React from 'react'
+import ColorChange from '../../Components/ColorChange'
 
 export default function ColorChangeScreen() {
   return (
-    <View>
-      <Text>ColorChangeScreen</Text>
-    </View>
+        <View>
+            <ColorChange colors="Kırmızı"/>
+            <ColorChange colors="Mavi"/>
+            <ColorChange colors="Yeşil"/> 
+        </View>
   )
 }
 
