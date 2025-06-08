@@ -17,6 +17,7 @@ export default function BoxPage({ navigation }) {
   return (
     <View>
       <Button
+      style={styles.Button}
         title="Kutu Ekle"
         onPress={() => {
           setColors([...colors, randomColor()]);
@@ -40,4 +41,14 @@ export default function BoxPage({ navigation }) {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Button: {
+    width: "80%",
+    height: 45,
+    backgroundColor: 'purple',
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 20,
+  }
+});
