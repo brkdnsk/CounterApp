@@ -6,7 +6,7 @@ export default function ColorChange({ colors ,onIncrease , onDecrease}) {
     <View>
       <Text>{colors}</Text>
       <Button title= {`${colors} arttır`} onPress={()=>onIncrease()} />
-      <Button title={`${colors} arttır`} onPress={()=>onDecrease()} />
+      <Button title={`${colors} azalt`} onPress={()=>onDecrease()} />
 
     </View>
   )
