@@ -19,6 +19,10 @@ export default function CounterScreen({ navigation }) {
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('ColorScreen')}>
         <Text style={styles.buttonText}>Renk Değiştir</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('PassPage')}>
+        <Text style={styles.buttonText}>Şifre Ekranı</Text>
+      </TouchableOpacity>
     </View>
   );
 }

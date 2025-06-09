@@ -5,6 +5,7 @@ import Counter from '../screens/Counter';
 import CounterScreen from '../screens/CounterScreen';
 import BoxPage from '../screens/BoxPage';
 import ColorChangeScreen from '../screens/ColorChangeScreen';
+import PasswordScreen from '../screens/PasswordScreen';
 
 
 
@@ -18,6 +19,7 @@ export default function AppNavigator({navigation}) {
         <Stack.Screen name="Counter" component={Counter} />
         <Stack.Screen name="BoxPage" component={BoxPage} />
         <Stack.Screen name="ColorScreen" component={ColorChangeScreen} />
+        <Stack.Screen name="PassPage" component={PasswordScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
