@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View  } from 'react-native'
 import React from 'react'
 
 export default function DesignScreen() {
@@ -10,7 +10,10 @@ export default function DesignScreen() {
       <View style={{width:100,height:100,backgroundColor:'blue'}}/>
       <View style={{width:50,height:50,backgroundColor:'red'}}/>
       <View style={styles.mainBorder}>
-      <Text style={styles.mainText}>Layout</Text>
+      <Text style={styles.mainText}>1</Text>
+      <Text style={styles.mainText}>2</Text>
+      <Text style={styles.mainText}>3</Text>
+      
       </View>
     </View>
   )
@@ -23,6 +26,7 @@ const styles = StyleSheet.create({
     backgroundColor:'yellow',
     margin:20,
     borderRadius:20,
+    alignItems:'center',
   },
   mainText:{
     borderWidth:30,
