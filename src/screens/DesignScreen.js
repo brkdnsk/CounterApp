@@ -9,9 +9,16 @@ export default function DesignScreen() {
       <View style={{width:150,height:150,backgroundColor:'red'}}/>
       <View style={{width:100,height:100,backgroundColor:'blue'}}/>
       <View style={{width:50,height:50,backgroundColor:'red'}}/>
-      
+      <View style={styles.main}>
+      <Text>Layout</Text>
+      </View>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  main:{
+    borderWidth:1,
+    borderColor:'black',
+  }
+})
