@@ -23,6 +23,10 @@ export default function CounterScreen({ navigation }) {
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('PassPage')}>
         <Text style={styles.buttonText}>Şifre Ekranı</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('DesScreen')}>
+        <Text style={styles.buttonText}>Şifre Ekranı</Text>
+      </TouchableOpacity>
     </View>
   );
 }

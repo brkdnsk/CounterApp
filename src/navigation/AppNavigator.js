@@ -6,6 +6,7 @@ import CounterScreen from '../screens/CounterScreen';
 import BoxPage from '../screens/BoxPage';
 import ColorChangeScreen from '../screens/ColorChangeScreen';
 import PasswordScreen from '../screens/PasswordScreen';
+import DesignScreen from '../screens/DesignScreen';
 
 
 
@@ -20,6 +21,7 @@ export default function AppNavigator({navigation}) {
         <Stack.Screen name="BoxPage" component={BoxPage} />
         <Stack.Screen name="ColorScreen" component={ColorChangeScreen} />
         <Stack.Screen name="PassPage" component={PasswordScreen} />
+        <Stack.Screen name="DesScreen" component={DesignScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
